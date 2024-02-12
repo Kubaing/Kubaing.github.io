@@ -4,5 +4,5 @@
 นาย อภิวัฒน์ คุณทรัพย์ 65075821<br>
 <b>ตัวอย่าง:</b><br>
 <img src ='./document/sample.png' alt='sample'>
-<a href='https://Kubaing.github.io/TenAnswers/tenanswer.html'>
+<a href='https://Kubaing.github.io/TenAnswers/index.html'>
 <br>ทดลองเล่นเกมส์
