@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>NormalMode</title>
+    <link rel="stylesheet" href="normalmode.css" />
+    <script src="scriptnormal.js"></script>
+  </head>       
+
+  <body>
+    <div>
+        <div class="main-container">
+            <div class="Center">
+              <button class="buttonn" onclick="document.location = 'normalmode.html' "style="color:white;">โหมดปกติ</button> 
+            </div>
+            <div class="round">
+              <!-- แสดงจำนวนรอบที่เหลือ -->
+              <p id="round-count">Round 0/10</p>
+          </div>
+            <div class="overflow">
+              <p id="Number"></p>
+            </div>  
+            <div class="Hint">  
+              <!-- ให้ผู้ใช้กรอกตัวเลขที่ต้องการสุ่ม (0-50) -->
+              <label for="userInput">กรุณาใส่ตัวเลขที่ต้องการสุ่ม (0-99)</label>
+              <!-- เพิ่ม "maxlength" ใน input เพื่อกำหนดจำนวนตัวเลขที่ใส่ได้ -->
+              <input type="number" id="userInput" name="userInput" maxlength="2"> 
+              <!-- ปุ่ม submit เพื่อส่งข้อมูล -->
+              <input type="submit" value="Submit" onclick="Checkanswer()">
+              <input type="reset" value="Reset" onclick="window.location='normalmode.html'">
+          </div>
+          <div class="Menu">
+            <img src="./image/home.png"  align="right" onclick="document.location = 'tenanswers.html'" >
+        </div>
+        </div>
+    </div>
+  </body>
+</html>

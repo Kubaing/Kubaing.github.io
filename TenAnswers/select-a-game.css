@@ -1,0 +1,77 @@
+.buttone {
+  padding: 1.3em 3em;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #000000;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 1px 10px rgb(0, 0, 0);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.buttone:hover {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.buttone:active {
+  transform: translateY(-1px);
+}
+
+.buttonn {
+  padding: 1.3em 3em;
+  font-size: 16px;
+  text-transform: uppercase;  
+  letter-spacing: 1.5px;  
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #000000;  
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 1px 10px rgb(0, 0, 0);
+  transition: all 0.3s ease 0s; 
+  cursor: pointer;
+  outline: none;
+}
+
+.buttonn:hover {
+  background-color: #d9971c;
+  box-shadow: 0px 15px 20px rgba(202, 124, 40, 0.999);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.buttonn:active {
+  transform: translateY(-1px);
+}
+
+.Title {
+  margin: auto;  
+  height: 70%;
+}
+
+.Mode {
+  margin: auto;
+  height: 150px;
+}
+
+
+.main-Select {
+  margin: auto; /*ปรับขนาดตรงกลาง*/
+  width: 360px;
+  height: 640px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  border: 3px solid gray;
+  background-color: #72aef2 ;
+}

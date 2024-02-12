@@ -1,0 +1,38 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <title>EasyMode</title>
+      <link rel="stylesheet" href="easymode.css" />
+      <script src="scripteasy.js"></script>
+    </head>       
+
+    <body>
+      <div>
+          <div class="main-container">
+              <div class="Center">
+                  <button class="buttone" onclick="document.location = 'easymode.html' "style="color:white;">โหมดง่าย</button> 
+              </div>
+              <div class="round">
+                <!-- แสดงจำนวนรอบที่เหลือ -->
+                <p id="round-count">Round 0/10</p>
+            </div>
+              <div class="overflow">
+                <p id="Number"></p>
+                </div>  
+                <div class="Hint">  
+                <!-- ให้ผู้ใช้กรอกตัวเลขที่ต้องการสุ่ม (0-50) -->
+                <label for="userInput">กรุณาใส่ตัวเลขที่ต้องการสุ่ม (0-50)</label>
+                <!-- เพิ่ม "maxlength" ใน input เพื่อกำหนดจำนวนตัวเลขที่ใส่ได้ -->
+                <input type="number" id="userInput" name="userInput" maxlength="2"> 
+                <!-- ปุ่ม submit เพื่อส่งข้อมูล -->
+                <input type="submit" value="Submit" onclick="Checkanswer()">
+                <input type="reset" value="Reset" onclick="window.location='easymode.html'">
+            </div>
+            <div>
+              <img src="./image/home.png"  align="right" onclick="document.location = 'tenanswers.html'" >
+          </div>
+          </div>
+      </div>
+    </body>
+  </html>
